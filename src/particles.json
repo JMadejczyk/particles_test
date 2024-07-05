@@ -1,0 +1,75 @@
+{
+  "background": {
+    "color": "#282c34"
+  },
+  "interactivity": {
+    "events": {
+      "onClick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "onHover": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "resize": true
+    },
+    "modes": {
+      "push": {
+        "quantity": 4
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      }
+    }
+  },
+  "particles": {
+    "color": {
+      "value": "#ffffff"
+    },
+    "links": {
+      "color": "#ffffff",
+      "distance": 150,
+      "enable": true,
+      "opacity": 0.5,
+      "width": 1
+    },
+    "collisions": {
+      "enable": true
+    },
+    "move": {
+      "direction": "none",
+      "enable": true,
+      "outModes": {
+        "default": "bounce"
+      },
+      "random": false,
+      "speed": 5,
+      "straight": false
+    },
+    "number": {
+      "density": {
+        "enable": true
+      },
+      "value": 100
+    },
+    "opacity": {
+      "value": 1
+    },
+    "shape": {
+      "type": "images",
+      "options": {
+        "images": {
+          "src": "https://www.winiary.pl/sites/default/files/styles/product_image_desktop_617_900/public/Winiary%20Majonez%20dekoracyjny%20400ml%203d_0.png?itok=dAd0u0h7",
+          "width": 608,
+          "height": 900
+        }
+      }
+    },
+    "size": {
+      "random": true,
+      "value": 35
+    }
+  }
+}
